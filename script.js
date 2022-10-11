@@ -6,7 +6,7 @@ const searchEngine = e => {
 
 	ulList.forEach(el => {
 		if (el.textContent.toLowerCase().indexOf(text) !== -1) {
-			el.style.sidplay = 'block'
+			el.style.display = 'block'
 		} else {
 			el.style.display = 'none'
 		}
